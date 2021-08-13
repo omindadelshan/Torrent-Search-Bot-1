@@ -26,8 +26,9 @@ DEFAULT_SEARCH_MARKUP = [
 @TorrentBot.on_message(filters.command("start"))
 async def start_handler(_, message: Message):
     try:
+        await massege.reply_sticker("CAACAgEAAx0CSNPoMAACBjJhFfXRo7MZImb83bcx3vK8W8Sd9gAC-ggAAuN4BAABldRzF5fV5IkgBA")
         await message.reply_text(
-            text="💎Hello, 🔥I am Ppowerfull Torrent Search Bot In Telegram..  !🇱🇰\n"
+            text="💎Hello, 🔥I am powerfull Torrent Search Bot In Telegram..  !🇱🇰\n"
                  "💠I can search Torrent Magnetic Links from Inline😇😇.\n\n"
                  "Made by @omindas🔥🔥 Powerd By sdprojectupdates 🤓✳️   💎🇱🇰 Made In ❤️sri Lanka 🇱🇰 🗣️ I Am Support A All Contrys🗣️🤓    ",
             disable_web_page_preview=True,
