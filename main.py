@@ -19,14 +19,13 @@ DEFAULT_SEARCH_MARKUP = [
                       InlineKeyboardButton("🔝Go Inline🔝", switch_inline_query="")],
                     [InlineKeyboardButton("🌀Search Anime🌀", switch_inline_query_current_chat="!a "),
                      InlineKeyboardButton("🌀GO Inline🌀", switch_inline_query_current_chat="!a ")],
-                    [InlineKeyboardButton("🔥💥 Developer 💥🔥", url="https://t.me/omindas")]
+                    [InlineKeyboardButton("🤖 Developer 🤖", url="https://t.me/omindas")]
                 ]
 
 
 @TorrentBot.on_message(filters.command("start"))
 async def start_handler(_, message: Message):
-    try:
-        await massege.reply_sticker("CAACAgEAAx0CSNPoMAACBjJhFfXRo7MZImb83bcx3vK8W8Sd9gAC-ggAAuN4BAABldRzF5fV5IkgBA")
+    try
         await message.reply_text(
             text="💎Hello, 🔥I am powerfull Torrent Search Bot In Telegram..  !🇱🇰\n"
                  "💠I can search Torrent Magnetic Links from Inline😇😇.\n\n"
